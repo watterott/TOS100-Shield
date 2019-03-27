@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -13518,7 +13518,7 @@ https://github.com/trinamic/TOS-100</text>
 <instance part="R4" gate="G$1" x="220.98" y="91.44" rot="R90"/>
 <instance part="GND2" gate="1" x="220.98" y="81.28"/>
 <instance part="GND3" gate="1" x="220.98" y="106.68"/>
-<instance part="P+2" gate="1" x="182.88" y="170.18"/>
+<instance part="P+2" gate="1" x="182.88" y="168.91"/>
 <instance part="C7" gate="G$1" x="175.26" y="165.1" rot="R90"/>
 <instance part="C9" gate="G$1" x="203.2" y="81.28" rot="R90"/>
 <instance part="C10" gate="G$1" x="210.82" y="81.28" rot="R90"/>
@@ -13526,30 +13526,30 @@ https://github.com/trinamic/TOS-100</text>
 <instance part="GND5" gate="1" x="210.82" y="71.12"/>
 <instance part="GND6" gate="1" x="39.37" y="78.74"/>
 <instance part="U$2" gate="G$1" x="26.67" y="91.44"/>
-<instance part="U$3" gate="G$1" x="55.88" y="50.8"/>
-<instance part="R10" gate="G$1" x="55.88" y="20.32" rot="R90"/>
+<instance part="U$3" gate="G$1" x="46.99" y="50.8"/>
+<instance part="R10" gate="G$1" x="46.99" y="20.32" rot="R90"/>
 <instance part="GND7" gate="1" x="11.43" y="78.74"/>
 <instance part="P+3" gate="1" x="109.22" y="93.98"/>
 <instance part="GND8" gate="1" x="109.22" y="71.12"/>
-<instance part="R9" gate="G$1" x="43.18" y="30.48"/>
-<instance part="GND9" gate="1" x="55.88" y="10.16"/>
+<instance part="R9" gate="G$1" x="35.56" y="30.48"/>
+<instance part="GND9" gate="1" x="46.99" y="10.16"/>
 <instance part="C8" gate="G$1" x="121.92" y="124.46" rot="R90"/>
 <instance part="GND10" gate="1" x="121.92" y="111.76"/>
 <instance part="U$4" gate="G$1" x="121.92" y="134.62"/>
 <instance part="R6" gate="G$1" x="12.7" y="20.32" rot="R90"/>
 <instance part="GND11" gate="1" x="12.7" y="10.16"/>
-<instance part="R12" gate="G$1" x="88.9" y="20.32" rot="R90"/>
-<instance part="R11" gate="G$1" x="76.2" y="30.48"/>
-<instance part="GND12" gate="1" x="88.9" y="10.16"/>
-<instance part="U$6" gate="G$1" x="88.9" y="50.8"/>
-<instance part="U$7" gate="G$1" x="119.38" y="50.8"/>
-<instance part="R8" gate="G$1" x="119.38" y="20.32" rot="R90"/>
-<instance part="GND13" gate="1" x="119.38" y="10.16"/>
-<instance part="R7" gate="G$1" x="106.68" y="45.72"/>
-<instance part="R14" gate="G$1" x="152.4" y="20.32" rot="R90"/>
-<instance part="R13" gate="G$1" x="139.7" y="30.48"/>
-<instance part="GND14" gate="1" x="152.4" y="10.16"/>
-<instance part="U$8" gate="G$1" x="152.4" y="50.8"/>
+<instance part="R12" gate="G$1" x="81.28" y="20.32" rot="R90"/>
+<instance part="R11" gate="G$1" x="69.85" y="30.48"/>
+<instance part="GND12" gate="1" x="81.28" y="10.16"/>
+<instance part="U$6" gate="G$1" x="81.28" y="50.8"/>
+<instance part="U$7" gate="G$1" x="115.57" y="50.8"/>
+<instance part="R8" gate="G$1" x="115.57" y="20.32" rot="R90"/>
+<instance part="GND13" gate="1" x="115.57" y="10.16"/>
+<instance part="R7" gate="G$1" x="104.14" y="45.72"/>
+<instance part="R14" gate="G$1" x="149.86" y="20.32" rot="R90"/>
+<instance part="R13" gate="G$1" x="138.43" y="30.48"/>
+<instance part="GND14" gate="1" x="149.86" y="10.16"/>
+<instance part="U$8" gate="G$1" x="149.86" y="50.8"/>
 <instance part="R15" gate="G$1" x="180.34" y="63.5"/>
 <instance part="R18" gate="G$1" x="180.34" y="71.12"/>
 <instance part="R16" gate="G$1" x="180.34" y="55.88"/>
@@ -13580,14 +13580,14 @@ https://github.com/trinamic/TOS-100</text>
 <instance part="LOGO1" gate="L" x="191.77" y="7.62"/>
 <instance part="LOGO2" gate="G$1" x="204.47" y="7.62"/>
 <instance part="LOGO3" gate="L" x="210.82" y="7.62"/>
-<instance part="T1" gate="T" x="55.88" y="33.02"/>
-<instance part="T2" gate="T" x="88.9" y="33.02"/>
-<instance part="T4" gate="T" x="152.4" y="33.02"/>
-<instance part="T3" gate="T" x="119.38" y="43.18" rot="MR180"/>
-<instance part="STEP" gate="D" x="55.88" y="45.72"/>
-<instance part="DIR" gate="D" x="88.9" y="45.72"/>
-<instance part="SG" gate="D" x="152.4" y="45.72"/>
-<instance part="EN" gate="D" x="119.38" y="33.02"/>
+<instance part="T1" gate="T" x="46.99" y="33.02"/>
+<instance part="T2" gate="T" x="81.28" y="33.02"/>
+<instance part="T4" gate="T" x="149.86" y="33.02"/>
+<instance part="T3" gate="T" x="115.57" y="43.18" rot="MR180"/>
+<instance part="STEP" gate="D" x="46.99" y="45.72"/>
+<instance part="DIR" gate="D" x="81.28" y="45.72"/>
+<instance part="SG" gate="D" x="149.86" y="45.72"/>
+<instance part="EN" gate="D" x="115.57" y="33.02"/>
 <instance part="FRAME2" gate="F" x="0" y="0"/>
 <instance part="LOGO4" gate="G$1" x="198.12" y="7.62"/>
 </instances>
@@ -13701,8 +13701,8 @@ https://github.com/trinamic/TOS-100</text>
 </net>
 <net name="STEP" class="0">
 <segment>
-<wire x1="152.4" y1="139.7" x2="144.78" y2="139.7" width="0.1524" layer="91"/>
-<label x="144.78" y="139.7" size="1.778" layer="95"/>
+<wire x1="152.4" y1="139.7" x2="143.51" y2="139.7" width="0.1524" layer="91"/>
+<label x="143.51" y="139.7" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="STEP"/>
 </segment>
 <segment>
@@ -13711,8 +13711,8 @@ https://github.com/trinamic/TOS-100</text>
 <pinref part="JP3" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="38.1" y1="30.48" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
-<label x="30.48" y="30.48" size="1.778" layer="95"/>
+<wire x1="30.48" y1="30.48" x2="22.86" y2="30.48" width="0.1524" layer="91"/>
+<label x="22.86" y="30.48" size="1.778" layer="95"/>
 <pinref part="R9" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -13723,8 +13723,8 @@ https://github.com/trinamic/TOS-100</text>
 </net>
 <net name="DIR" class="0">
 <segment>
-<wire x1="152.4" y1="137.16" x2="144.78" y2="137.16" width="0.1524" layer="91"/>
-<label x="144.78" y="137.16" size="1.778" layer="95"/>
+<wire x1="152.4" y1="137.16" x2="143.51" y2="137.16" width="0.1524" layer="91"/>
+<label x="143.51" y="137.16" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="DIR"/>
 </segment>
 <segment>
@@ -13733,8 +13733,8 @@ https://github.com/trinamic/TOS-100</text>
 <pinref part="JP3" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<wire x1="71.12" y1="30.48" x2="66.04" y2="30.48" width="0.1524" layer="91"/>
-<label x="66.04" y="30.48" size="1.778" layer="95"/>
+<wire x1="64.77" y1="30.48" x2="59.69" y2="30.48" width="0.1524" layer="91"/>
+<label x="59.69" y="30.48" size="1.778" layer="95"/>
 <pinref part="R11" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -13745,8 +13745,8 @@ https://github.com/trinamic/TOS-100</text>
 </net>
 <net name="!CS" class="0">
 <segment>
-<wire x1="152.4" y1="129.54" x2="144.78" y2="129.54" width="0.1524" layer="91"/>
-<label x="144.78" y="129.54" size="1.778" layer="95"/>
+<wire x1="152.4" y1="129.54" x2="143.51" y2="129.54" width="0.1524" layer="91"/>
+<label x="143.51" y="129.54" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="!CS"/>
 </segment>
 <segment>
@@ -13762,8 +13762,8 @@ https://github.com/trinamic/TOS-100</text>
 </net>
 <net name="SCK" class="0">
 <segment>
-<wire x1="152.4" y1="127" x2="144.78" y2="127" width="0.1524" layer="91"/>
-<label x="144.78" y="127" size="1.778" layer="95"/>
+<wire x1="152.4" y1="127" x2="143.51" y2="127" width="0.1524" layer="91"/>
+<label x="143.51" y="127" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="SCK"/>
 </segment>
 <segment>
@@ -13774,8 +13774,8 @@ https://github.com/trinamic/TOS-100</text>
 </net>
 <net name="MOSI" class="0">
 <segment>
-<wire x1="152.4" y1="124.46" x2="144.78" y2="124.46" width="0.1524" layer="91"/>
-<label x="144.78" y="124.46" size="1.778" layer="95"/>
+<wire x1="152.4" y1="124.46" x2="143.51" y2="124.46" width="0.1524" layer="91"/>
+<label x="143.51" y="124.46" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="SDI"/>
 </segment>
 <segment>
@@ -13786,8 +13786,8 @@ https://github.com/trinamic/TOS-100</text>
 </net>
 <net name="MISO" class="0">
 <segment>
-<wire x1="152.4" y1="121.92" x2="144.78" y2="121.92" width="0.1524" layer="91"/>
-<label x="144.78" y="121.92" size="1.778" layer="95"/>
+<wire x1="152.4" y1="121.92" x2="143.51" y2="121.92" width="0.1524" layer="91"/>
+<label x="143.51" y="121.92" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="SDO"/>
 </segment>
 <segment>
@@ -13798,8 +13798,8 @@ https://github.com/trinamic/TOS-100</text>
 </net>
 <net name="!EN" class="0">
 <segment>
-<wire x1="152.4" y1="114.3" x2="144.78" y2="114.3" width="0.1524" layer="91"/>
-<label x="144.78" y="114.3" size="1.778" layer="95"/>
+<wire x1="152.4" y1="114.3" x2="143.51" y2="114.3" width="0.1524" layer="91"/>
+<label x="143.51" y="114.3" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="!EN"/>
 </segment>
 <segment>
@@ -13808,8 +13808,8 @@ https://github.com/trinamic/TOS-100</text>
 <pinref part="JP3" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<wire x1="101.6" y1="45.72" x2="96.52" y2="45.72" width="0.1524" layer="91"/>
-<label x="96.52" y="45.72" size="1.778" layer="95"/>
+<wire x1="99.06" y1="45.72" x2="93.98" y2="45.72" width="0.1524" layer="91"/>
+<label x="93.98" y="45.72" size="1.778" layer="95"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -13820,8 +13820,8 @@ https://github.com/trinamic/TOS-100</text>
 </net>
 <net name="SG" class="0">
 <segment>
-<wire x1="152.4" y1="101.6" x2="144.78" y2="101.6" width="0.1524" layer="91"/>
-<label x="144.78" y="101.6" size="1.778" layer="95"/>
+<wire x1="152.4" y1="101.6" x2="143.51" y2="101.6" width="0.1524" layer="91"/>
+<label x="143.51" y="101.6" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="SG_TST"/>
 </segment>
 <segment>
@@ -13830,8 +13830,8 @@ https://github.com/trinamic/TOS-100</text>
 <pinref part="JP3" gate="G$1" pin="4"/>
 </segment>
 <segment>
-<wire x1="134.62" y1="30.48" x2="129.54" y2="30.48" width="0.1524" layer="91"/>
-<label x="129.54" y="30.48" size="1.778" layer="95"/>
+<wire x1="133.35" y1="30.48" x2="128.27" y2="30.48" width="0.1524" layer="91"/>
+<label x="128.27" y="30.48" size="1.778" layer="95"/>
 <pinref part="R13" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -13842,7 +13842,7 @@ https://github.com/trinamic/TOS-100</text>
 <wire x1="200.66" y1="137.16" x2="203.2" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="137.16" x2="203.2" y2="139.7" width="0.1524" layer="91"/>
 <junction x="203.2" y="139.7"/>
-<label x="200.66" y="139.7" size="1.778" layer="95"/>
+<label x="204.47" y="139.7" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="OA1@1"/>
 <pinref part="IC1" gate="G$1" pin="OA1@3"/>
 </segment>
@@ -13869,7 +13869,7 @@ https://github.com/trinamic/TOS-100</text>
 <wire x1="200.66" y1="129.54" x2="203.2" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="129.54" x2="203.2" y2="132.08" width="0.1524" layer="91"/>
 <junction x="203.2" y="132.08"/>
-<label x="200.66" y="132.08" size="1.778" layer="95"/>
+<label x="204.47" y="132.08" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="OA2@1"/>
 <pinref part="IC1" gate="G$1" pin="OA2@3"/>
 </segment>
@@ -13896,7 +13896,7 @@ https://github.com/trinamic/TOS-100</text>
 <wire x1="200.66" y1="111.76" x2="203.2" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="111.76" x2="203.2" y2="114.3" width="0.1524" layer="91"/>
 <junction x="203.2" y="114.3"/>
-<label x="200.66" y="114.3" size="1.778" layer="95"/>
+<label x="204.47" y="114.3" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="OB1@1"/>
 <pinref part="IC1" gate="G$1" pin="OB1@3"/>
 </segment>
@@ -13923,7 +13923,7 @@ https://github.com/trinamic/TOS-100</text>
 <wire x1="200.66" y1="104.14" x2="203.2" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="104.14" x2="203.2" y2="106.68" width="0.1524" layer="91"/>
 <junction x="203.2" y="106.68"/>
-<label x="200.66" y="106.68" size="1.778" layer="95"/>
+<label x="204.47" y="106.68" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="OB2@1"/>
 <pinref part="IC1" gate="G$1" pin="OB2@3"/>
 </segment>
@@ -14083,7 +14083,7 @@ https://github.com/trinamic/TOS-100</text>
 <pinref part="C2'" gate="G$1" pin="-"/>
 </segment>
 <segment>
-<wire x1="55.88" y1="15.24" x2="55.88" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="46.99" y1="15.24" x2="46.99" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 </segment>
@@ -14093,17 +14093,17 @@ https://github.com/trinamic/TOS-100</text>
 <pinref part="GND11" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="88.9" y1="15.24" x2="88.9" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="15.24" x2="81.28" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="1"/>
 <pinref part="GND12" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="119.38" y1="15.24" x2="119.38" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="115.57" y1="15.24" x2="115.57" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="152.4" y1="15.24" x2="152.4" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="15.24" x2="149.86" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="1"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 </segment>
@@ -14158,7 +14158,7 @@ https://github.com/trinamic/TOS-100</text>
 <wire x1="203.2" y1="86.36" x2="203.2" y2="88.9" width="0.1524" layer="91"/>
 <junction x="203.2" y="86.36"/>
 <junction x="203.2" y="88.9"/>
-<label x="200.66" y="88.9" size="1.778" layer="95"/>
+<label x="203.2" y="88.9" size="1.778" layer="95"/>
 <pinref part="IC1" gate="G$1" pin="5VOUT"/>
 <pinref part="C10" gate="G$1" pin="2"/>
 <pinref part="IC1" gate="G$1" pin="VCC_IO"/>
@@ -14186,7 +14186,7 @@ https://github.com/trinamic/TOS-100</text>
 <segment>
 <wire x1="175.26" y1="167.64" x2="180.34" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="167.64" x2="182.88" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="167.64" x2="182.88" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="182.88" y1="167.64" x2="182.88" y2="168.91" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="160.02" x2="180.34" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="160.02" x2="190.5" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="167.64" x2="185.42" y2="167.64" width="0.1524" layer="91"/>
@@ -14270,22 +14270,22 @@ https://github.com/trinamic/TOS-100</text>
 <pinref part="C8" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<wire x1="55.88" y1="48.26" x2="55.88" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="46.99" y1="48.26" x2="46.99" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="5V"/>
 <pinref part="STEP" gate="D" pin="A"/>
 </segment>
 <segment>
-<wire x1="119.38" y1="48.26" x2="119.38" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="115.57" y1="48.26" x2="115.57" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="U$7" gate="G$1" pin="5V"/>
 <pinref part="T3" gate="T" pin="S"/>
 </segment>
 <segment>
-<wire x1="152.4" y1="48.26" x2="152.4" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="48.26" x2="149.86" y2="50.8" width="0.1524" layer="91"/>
 <pinref part="U$8" gate="G$1" pin="5V"/>
 <pinref part="SG" gate="D" pin="A"/>
 </segment>
 <segment>
-<wire x1="88.9" y1="50.8" x2="88.9" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="50.8" x2="81.28" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="U$6" gate="G$1" pin="5V"/>
 <pinref part="DIR" gate="D" pin="A"/>
 </segment>
@@ -14302,19 +14302,19 @@ https://github.com/trinamic/TOS-100</text>
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
 <pinref part="T1" gate="T" pin="G"/>
-<wire x1="50.8" y1="30.48" x2="48.26" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="41.91" y1="30.48" x2="40.64" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
-<wire x1="55.88" y1="40.64" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="46.99" y1="40.64" x2="46.99" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="T1" gate="T" pin="D"/>
 <pinref part="STEP" gate="D" pin="C"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
-<wire x1="55.88" y1="27.94" x2="55.88" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="46.99" y1="27.94" x2="46.99" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="2"/>
 <pinref part="T1" gate="T" pin="S"/>
 </segment>
@@ -14323,33 +14323,33 @@ https://github.com/trinamic/TOS-100</text>
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
 <pinref part="T2" gate="T" pin="G"/>
-<wire x1="83.82" y1="30.48" x2="81.28" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="30.48" x2="74.93" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$25" class="0">
 <segment>
-<wire x1="88.9" y1="40.64" x2="88.9" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="40.64" x2="81.28" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="T2" gate="T" pin="D"/>
 <pinref part="DIR" gate="D" pin="C"/>
 </segment>
 </net>
 <net name="N$26" class="0">
 <segment>
-<wire x1="88.9" y1="27.94" x2="88.9" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="27.94" x2="81.28" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="2"/>
 <pinref part="T2" gate="T" pin="S"/>
 </segment>
 </net>
 <net name="N$27" class="0">
 <segment>
-<wire x1="119.38" y1="38.1" x2="119.38" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="115.57" y1="38.1" x2="115.57" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="T3" gate="T" pin="D"/>
 <pinref part="EN" gate="D" pin="A"/>
 </segment>
 </net>
 <net name="N$35" class="0">
 <segment>
-<wire x1="119.38" y1="27.94" x2="119.38" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="115.57" y1="27.94" x2="115.57" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="EN" gate="D" pin="C"/>
 </segment>
@@ -14358,26 +14358,26 @@ https://github.com/trinamic/TOS-100</text>
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="T3" gate="T" pin="G"/>
-<wire x1="114.3" y1="45.72" x2="111.76" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="110.49" y1="45.72" x2="109.22" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$38" class="0">
 <segment>
 <pinref part="R13" gate="G$1" pin="2"/>
 <pinref part="T4" gate="T" pin="G"/>
-<wire x1="147.32" y1="30.48" x2="144.78" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="30.48" x2="143.51" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$39" class="0">
 <segment>
-<wire x1="152.4" y1="40.64" x2="152.4" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="40.64" x2="149.86" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="T4" gate="T" pin="D"/>
 <pinref part="SG" gate="D" pin="C"/>
 </segment>
 </net>
 <net name="N$40" class="0">
 <segment>
-<wire x1="152.4" y1="27.94" x2="152.4" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="27.94" x2="149.86" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="R14" gate="G$1" pin="2"/>
 <pinref part="T4" gate="T" pin="S"/>
 </segment>
