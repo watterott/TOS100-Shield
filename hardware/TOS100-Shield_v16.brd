@@ -100,6 +100,8 @@
 <circle x="66" y="35.5" radius="3.5" width="0" layer="41"/>
 <circle x="15.125" y="50.75" radius="3.5" width="0" layer="41"/>
 <circle x="15.125" y="50.75" radius="3.5" width="0" layer="42"/>
+<text x="65.5" y="30.5" size="1.27" layer="49" font="vector" ratio="12" align="center">UL
+mark</text>
 </plain>
 <libraries>
 <library name="adafruit">
@@ -6733,4 +6735,10 @@ K - 260gr Red&lt;br&gt;
 </signals>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
